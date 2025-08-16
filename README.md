@@ -12,7 +12,6 @@ This project demonstrates DOM manipulation, event handling, and basic JavaScript
 - User can select an answer, and immediate feedback is shown .
 - Score tracking throughout the quiz.
 - Restart option at the end of the quiz.
-- **Timer** of 30 seconds per question ⏱️.
 - Responsive and styled UI.
 
 ---
@@ -24,13 +23,11 @@ This project demonstrates DOM manipulation, event handling, and basic JavaScript
    - Stored quiz questions in an array of objects.
    - Dynamically loaded questions and options using DOM manipulation.
    - Implemented a **scoring system** to keep track of correct answers.
-   - Added a **30-second timer** per question using `setInterval()`.
    - Provided **restart functionality** to replay the quiz.
 
 ---
 
 ##  Challenges Faced
-- Handling the **timer reset** for each new question.
 - Ensuring that once an option is clicked, others are disabled to prevent multiple selections.
 - Making the quiz UI responsive and user-friendly.
 - Debugging path issues for CSS/JS files during hosting on Netlify/Vercel.
